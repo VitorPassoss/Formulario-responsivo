@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
+#conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+form {
+    width: 380px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 20px 50px rgb(194, 196, 196);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35%;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+input: {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+input,
+textarea {
+    padding-bottom: 10px;
+}
+
+#user {
+    width: 250px;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+
+#senha {
+    width: 250px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.button-primary {
+    background-color: #5488FF;
+    width: 270px;
+    height: 40px;
+    border-radius: 15px;
+    color: white;
+    margin-top: 25px;
+    border: none;
+    font-size: 19px;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 0 0 10px;
+    outline: 0;
+}
